@@ -1,75 +1,85 @@
 <div align="center">
 
-<img src="./assets/banner.svg" alt="Yo, I'm Ilham (ilhamzul)" width="100%" />
+<img src="./assets/banner.svg" alt="Yo, I'm Ilham (ilhamzul) — Data PM & Ventubox Builder" width="100%" />
 
 <br />
 
 <p>
-  <strong>いらっしゃいませ!</strong> I'm <strong>Ilham</strong> — a <strong>Data Product Manager at Shopee</strong> handling <strong>Regional Marketing across Southeast Asia</strong> when the sun is up, and a chronic weeb who builds gloriously stupid, over-engineered side quests on my free time once everyone else is asleep.
+  <strong>你好!</strong> I'm <strong>Ilham</strong> — a <strong>Data Product Manager at Shopee</strong> steering <strong>Regional Marketing across Southeast Asia</strong> by day, and a serial AI-era builder cooking up my own pre-launch studio <strong>Ventubox</strong> after hours.
 </p>
 
-<img src="./assets/status-card.svg" alt="Adventurer Guild Status Window" width="100%" />
+<img src="./assets/status-card.svg" alt="Cultivation Status Window & Ventubox Overview" width="100%" />
 
 </div>
 
 ---
 
-### 🎬 Anime Season Arcs (My Lore, Zero LinkedIn Speak)
+### 🏮 Building in Stealth: **Ventubox**
 
-| Season | Guild / Arc | What Actually Happened |
+**Ventubox** *(pre-launch)* is my upcoming **umbrella product studio** where I turn slightly unhinged *"why doesn't this exist properly yet?"* ideas into real AI-powered apps:
+
+| Project | What It Does | Why I Built It |
 | :--- | :--- | :--- |
-| **Season 5** *(Currently Airing)* | 🧡 **Shopee** · *Data Product Manager* | Handling **Regional Marketing across the Southeast Asia market**. Turning massive regional promo chaos, experiments, and growth funnels into actual product wins. |
-| **Season 4** | 🎵 **ByteDance (TikTok Shop)** · *Global E-Commerce Data Scientist* | Lived inside SEA Search Ranking & Front End. Redefined search sessions (+~1% CVR), tuned Add-To-Cart ranking signals (+2.62% GMV / +1.77% AOV), matched search keywords with coupons (+1.91% GMV/user), and unified trackers & metrics across TikTok Shop × Tokopedia. |
-| **Season 3** | 💚 **Tokopedia** · *Data Analyst* | Taught search ranking to care about shipping speed, price, and quality (+$5.3M/yr sales), banished spam listings to the Shadow Realm (+0.79% CVR, -$696K/yr cost), busted fake discounts (+$3.2M/yr), and wired self-serve dashboards & A/B testing pipelines. |
-| **Season 2** | 🧠 **Aiforesee** · *Data Scientist* | Built procurement vendor ratings (~+15% order CVR) and boosted credit scoring models (+7% AUC-ROC) using alternative data (telco, mining, logistics). |
-| **Season 1** *(Origin Arc)* | 🏦 **Home Credit** + 🎓 **UGM Yogyakarta** | Automated e-commerce loan flows (-8.3% manual toil) right after wrapping a **B.Eng at Universitas Gadjah Mada**. |
+| 📄 **Auto CV Tailor** | Reads a target job post, matches it against your actual background, and automatically generates & edits a tailored CV to fit. | Zero manual formatting pain—match real signal to the role cleanly. |
+| 🀄 **Hanzi Flashcards** | A full Chinese flashcard & learner's dictionary engineered with strict 1:1 pinyin alignment, real SRS memory science, handwriting/strokes, and honest examples. | Built to help people **actually learn Chinese better than Duolingo**. |
+| 🧩 **Kids Everyday Play** | Fun, interactive mini-games and learning tools designed around real objects & situations kids find in everyday life. | Training curiosity and real-world thinking without mind-numbing slop. |
+
+*(Everything under Ventubox shares unified auth, design tokens, and AI pipelines while keeping each product fast and focused.)*
 
 ---
 
-### 🎮 Weekend Chaos & Public Side Quests
+### ⚔️ Cultivation Arcs *(Zero LinkedIn Corporate Speak)*
 
-When I'm not staring at SEA marketing funnels or arguing with dashboards, I'm usually whispering *"wait, wouldn't it be funny if I built..."* at 1 AM and spawning way too many TypeScript/Python experiments.
+| Arc | Sect / Company | Story Summary |
+| :--- | :--- | :--- |
+| **Current Arc** | 🧡 **Shopee** · *Data Product Manager* + 🏮 **Ventubox** | Running data product for **Regional Marketing across the SEA market** at Shopee while forging multiple AI products under **Ventubox** at night. |
+| **Arc IV** | 🎵 **ByteDance (TikTok Shop)** · *Global E-Commerce Data Scientist* | Built SEA Search Ranking & Front End wins: redefined search sessions (`+~1% CVR`), tuned Add-To-Cart ranking (`+2.62% GMV`, `+1.77% AOV`), matched search keywords to coupons (`+1.91% GMV/user`), and unified metrics & trackers across TikTok Shop × Tokopedia. |
+| **Arc III** | 💚 **Tokopedia** · *Data Analyst* | Reranked search for delivery speed & product quality (`+$5.3M/yr` sales), exorcised spam merchants (`+0.79% CVR`, `-$696K/yr` infra cost), nerfed fake discounts (`+$3.2M/yr`), and built self-serve A/B & BI pipelines. |
+| **Arc II** | 🧠 **Aiforesee** · *Data Scientist* | Engineered procurement vendor ratings (`~+15%` order conversion) and upgraded generic loan scoring with alt-data across telco, mining & logistics (`+7% AUC-ROC`). |
+| **Arc I *(Origin)*** | 🏦 **Home Credit** + 🎓 **UGM Yogyakarta** | Automated e-commerce loan integration workflows (`-8.3%` manual grind) after earning a **B.Eng at Universitas Gadjah Mada**. |
 
-Old-school ML / notebook relics still hanging out in public:
+---
+
+### 🧪 Public Sandbox & Early Scrolls
+
+Old-school ML / notebook relics sitting in public while the newer **Ventubox** apps are cooking in private:
 
 - 📊 [`Home-Credit-Default-Risk`](https://github.com/ilhamzul/Home-Credit-Default-Risk) — Vintage Kaggle default-risk modeling arc
-- 💸 [`Lending-Club`](https://github.com/ilhamzul/Lending-Club) — Early loan-risk & feature engineering experiments
-- 👥 [`Employee-termination-prediction`](https://github.com/ilhamzul/Employee-termination-prediction) — HR churn prediction notebook
-- 🌐 [`ilhamzul.github.io`](https://github.com/ilhamzul/ilhamzul.github.io) — Dusty web corner from a simpler time
-
-*(Half my recent dumb-but-actually-working builds live in private labs until they graduate from "why did I make this" to public.)*
+- 💸 [`Lending-Club`](https://github.com/ilhamzul/Lending-Club) — Early credit scoring & feature engineering notebooks
+- 👥 [`Employee-termination-prediction`](https://github.com/ilhamzul/Employee-termination-prediction) — HR churn prediction experiment
+- 🌐 [`ilhamzul.github.io`](https://github.com/ilhamzul/ilhamzul.github.io) — First web outpost
 
 ---
 
-### 🪄 Tech Grimoire (Spells & Tools)
+### ⚡ Tech & AI Arsenal
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-1A1B26?style=for-the-badge&logo=python&logoColor=7DCFFF)
-![SQL](https://img.shields.io/badge/SQL-1A1B26?style=for-the-badge&logo=postgresql&logoColor=BB9AF7)
-![BigQuery](https://img.shields.io/badge/BigQuery-1A1B26?style=for-the-badge&logo=googlebigquery&logoColor=7AA2F7)
-![Elasticsearch](https://img.shields.io/badge/Elasticsearch-1A1B26?style=for-the-badge&logo=elasticsearch&logoColor=9ECE6A)
-![TypeScript](https://img.shields.io/badge/TypeScript-1A1B26?style=for-the-badge&logo=typescript&logoColor=7DCFFF)
-![PyTorch](https://img.shields.io/badge/Deep%20Learning-1A1B26?style=for-the-badge&logo=pytorch&logoColor=F7768E)
-![A/B Testing](https://img.shields.io/badge/A%2FB%20Testing-1A1B26?style=for-the-badge&logo=apacheairflow&logoColor=E0AF68)
-![Tableau](https://img.shields.io/badge/Tableau-1A1B26?style=for-the-badge&logo=tableau&logoColor=FF9E64)
-![Power BI](https://img.shields.io/badge/Power%20BI-1A1B26?style=for-the-badge&logo=powerbi&logoColor=E0AF68)
-![Metabase](https://img.shields.io/badge/Metabase-1A1B26?style=for-the-badge&logo=metabase&logoColor=7AA2F7)
-![Google Analytics](https://img.shields.io/badge/Google%20Analytics-1A1B26?style=for-the-badge&logo=googleanalytics&logoColor=FF9E64)
+![Python](https://img.shields.io/badge/Python-11131C?style=for-the-badge&logo=python&logoColor=34D399)
+![TypeScript](https://img.shields.io/badge/TypeScript-11131C?style=for-the-badge&logo=typescript&logoColor=38BDF8)
+![SQL](https://img.shields.io/badge/SQL-11131C?style=for-the-badge&logo=postgresql&logoColor=F59E0B)
+![BigQuery](https://img.shields.io/badge/BigQuery-11131C?style=for-the-badge&logo=googlebigquery&logoColor=38BDF8)
+![Elasticsearch](https://img.shields.io/badge/Elasticsearch-11131C?style=for-the-badge&logo=elasticsearch&logoColor=34D399)
+![PyTorch](https://img.shields.io/badge/Deep%20Learning-11131C?style=for-the-badge&logo=pytorch&logoColor=F43F5E)
+![A/B Testing](https://img.shields.io/badge/A%2FB%20Testing-11131C?style=for-the-badge&logo=apacheairflow&logoColor=FCD34D)
+![Tableau](https://img.shields.io/badge/Tableau-11131C?style=for-the-badge&logo=tableau&logoColor=F59E0B)
+![Power BI](https://img.shields.io/badge/Power%20BI-11131C?style=for-the-badge&logo=powerbi&logoColor=FCD34D)
+![Metabase](https://img.shields.io/badge/Metabase-11131C?style=for-the-badge&logo=metabase&logoColor=38BDF8)
+![Google Analytics](https://img.shields.io/badge/Google%20Analytics-11131C?style=for-the-badge&logo=googleanalytics&logoColor=F43F5E)
 
 </div>
 
 ---
 
-### 🏮 Summon Me (Or Just Say Yo)
+### 🏮 Connect
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/Gmail-ilham.zulfikri.f%40gmail.com-1A1B26?style=for-the-badge&logo=gmail&logoColor=F7768E)](mailto:ilham.zulfikri.f@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-@ilhamzul-1A1B26?style=for-the-badge&logo=github&logoColor=BB9AF7)](https://github.com/ilhamzul)
+[![Email](https://img.shields.io/badge/Gmail-ilham.zulfikri.f%40gmail.com-11131C?style=for-the-badge&logo=gmail&logoColor=F43F5E)](mailto:ilham.zulfikri.f@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-@ilhamzul-11131C?style=for-the-badge&logo=github&logoColor=FCD34D)](https://github.com/ilhamzul)
 
 <br />
 
-<img src="./assets/footer.svg" alt="To be continued..." width="100%" />
+<img src="./assets/footer.svg" alt="未完待续 // To be continued..." width="100%" />
 
 </div>
