@@ -1,29 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" width="880" height="300" role="img" aria-label="Ilham Adventurer Guild Status Window">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" width="880" height="300" role="img" aria-label="Ilham Cultivation Status and Ventubox Studio Card">
   <defs>
     <linearGradient id="winBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#1A1B26" />
-      <stop offset="100%" stop-color="#1F2335" />
+      <stop offset="0%" stop-color="#11131C" />
+      <stop offset="100%" stop-color="#1B1E2E" />
     </linearGradient>
     <linearGradient id="winBorder" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#7DCFFF" />
-      <stop offset="50%" stop-color="#BB9AF7" />
-      <stop offset="100%" stop-color="#F7768E" />
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="50%" stop-color="#F43F5E" />
+      <stop offset="100%" stop-color="#34D399" />
+    </linearGradient>
+    <linearGradient id="barJade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#34D399" />
+    </linearGradient>
+    <linearGradient id="barGold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#FCD34D" />
+    </linearGradient>
+    <linearGradient id="barCrimson" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E11D48" />
+      <stop offset="100%" stop-color="#F43F5E" />
     </linearGradient>
     <linearGradient id="barCyan" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#7AA2F7" />
-      <stop offset="100%" stop-color="#7DCFFF" />
-    </linearGradient>
-    <linearGradient id="barPurple" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#9D7CD8" />
-      <stop offset="100%" stop-color="#BB9AF7" />
-    </linearGradient>
-    <linearGradient id="barSakura" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#F7768E" />
-      <stop offset="100%" stop-color="#FF9E64" />
-    </linearGradient>
-    <linearGradient id="barGreen" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#73DACA" />
-      <stop offset="100%" stop-color="#9ECE6A" />
+      <stop offset="0%" stop-color="#0EA5E9" />
+      <stop offset="100%" stop-color="#38BDF8" />
     </linearGradient>
     <style>
       .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
@@ -33,66 +33,59 @@
 
   <rect x="2" y="2" width="876" height="296" rx="16" fill="url(#winBg)" />
 
-  <!-- Top window bar -->
-  <path d="M2,18 Q2,2 18,2 L862,2 Q878,2 878,18 L878,44 L2,44 Z" fill="#24283B" />
-  <circle cx="26" cy="23" r="5" fill="#F7768E" />
-  <circle cx="44" cy="23" r="5" fill="#E0AF68" />
-  <circle cx="62" cy="23" r="5" fill="#9ECE6A" />
-  <text x="86" y="27" class="mono" font-size="12.5" font-weight="700" fill="#7DCFFF" letter-spacing="0.8">
-    [ ADVENTURER STATUS WINDOW // GUILD CARD LV. 99 ]
+  <!-- Top bar -->
+  <path d="M2,18 Q2,2 18,2 L862,2 Q878,2 878,18 L878,44 L2,44 Z" fill="#171A26" />
+  <circle cx="26" cy="23" r="5" fill="#F43F5E" />
+  <circle cx="44" cy="23" r="5" fill="#F59E0B" />
+  <circle cx="62" cy="23" r="5" fill="#34D399" />
+  <text x="86" y="27" class="mono" font-size="12.5" font-weight="700" fill="#FCD34D" letter-spacing="0.8">
+    [ CULTIVATION PANEL // 修炼面板 · AI BUILDER ]
   </text>
-  <text x="854" y="27" text-anchor="end" class="mono" font-size="11.5" fill="#BB9AF7">STATUS: OVERWORKED_OTAKU</text>
+  <text x="854" y="27" text-anchor="end" class="mono" font-size="11.5" fill="#34D399">REALM: SHIP_IT_FAST</text>
 
-  <!-- Center vertical divider -->
-  <line x1="436" y1="62" x2="436" y2="278" stroke="#414868" stroke-width="1" stroke-dasharray="4 4" />
+  <line x1="436" y1="62" x2="436" y2="278" stroke="#2D334D" stroke-width="1" stroke-dasharray="4 4" />
 
-  <!-- LEFT COLUMN: Guild Character Sheet -->
-  <text x="28" y="78" class="mono" font-size="11.5" font-weight="700" fill="#F7768E" letter-spacing="1.2">
-    CHARACTER SHEET
-  </text>
-
-  <text x="28" y="106" class="mono" font-size="11.5" fill="#7AA2F7">CURRENT GUILD</text>
-  <text x="28" y="126" class="sans" font-size="14" font-weight="700" fill="#C0CAF5">Shopee · Data Product Manager</text>
-  <text x="28" y="143" class="sans" font-size="12.5" fill="#A9B1D6">Regional Marketing (Southeast Asia Market)</text>
-
-  <text x="28" y="172" class="mono" font-size="11.5" fill="#7AA2F7">PAST ARCS</text>
-  <text x="28" y="191" class="sans" font-size="13" fill="#C0CAF5">ByteDance (TikTok Shop) · Tokopedia · Aiforesee · Home Credit</text>
-
-  <text x="28" y="220" class="mono" font-size="11.5" fill="#7AA2F7">SPAWN POINT</text>
-  <text x="28" y="239" class="sans" font-size="13" fill="#C0CAF5">B.Eng @ Universitas Gadjah Mada · Yogyakarta, ID</text>
-
-  <text x="28" y="268" class="mono" font-size="11.5" fill="#E0AF68">PASSIVE SKILL</text>
-  <text x="28" y="285" class="sans" font-size="12.5" fill="#9ECE6A">Turns 2 AM "what if..." jokes into questionable side repos</text>
-
-  <!-- RIGHT COLUMN: Stat Bars -->
-  <text x="464" y="78" class="mono" font-size="11.5" font-weight="700" fill="#7DCFFF" letter-spacing="1.2">
-    SKILL PARAMETERS
+  <!-- LEFT COLUMN -->
+  <text x="28" y="78" class="mono" font-size="11.5" font-weight="700" fill="#F43F5E" letter-spacing="1.2">
+    ORIGIN &amp; FACTIONS
   </text>
 
-  <!-- Stat 1 -->
-  <text x="464" y="106" class="sans" font-size="13" font-weight="600" fill="#C0CAF5">SQL, Funnels &amp; A/B Experimentation</text>
-  <text x="850" y="106" text-anchor="end" class="mono" font-size="12.5" font-weight="700" fill="#7DCFFF">99%</text>
-  <rect x="464" y="114" width="386" height="10" rx="5" fill="#292E42" />
-  <rect x="464" y="114" width="380" height="10" rx="5" fill="url(#barCyan)" />
+  <text x="28" y="106" class="mono" font-size="11" fill="#F59E0B">DAY SECT (CURRENT)</text>
+  <text x="28" y="125" class="sans" font-size="14" font-weight="700" fill="#F1F5F9">Shopee · Data Product Manager</text>
+  <text x="28" y="142" class="sans" font-size="12.5" fill="#94A3B8">Regional Marketing across Southeast Asia</text>
 
-  <!-- Stat 2 -->
-  <text x="464" y="154" class="sans" font-size="13" font-weight="600" fill="#C0CAF5">Search Ranking &amp; Spam Merchant Slaying</text>
-  <text x="850" y="154" text-anchor="end" class="mono" font-size="12.5" font-weight="700" fill="#BB9AF7">95%</text>
-  <rect x="464" y="162" width="386" height="10" rx="5" fill="#292E42" />
-  <rect x="464" y="162" width="366" height="10" rx="5" fill="url(#barPurple)" />
+  <text x="28" y="170" class="mono" font-size="11" fill="#34D399">OWN STUDIO (PRE-LAUNCH)</text>
+  <text x="28" y="189" class="sans" font-size="14" font-weight="700" fill="#F1F5F9">Ventubox · Umbrella Product Group</text>
+  <text x="28" y="206" class="sans" font-size="12.5" fill="#94A3B8">AI CV Editor · Hanzi Flashcards · Kids Life Games</text>
 
-  <!-- Stat 3 -->
-  <text x="464" y="202" class="sans" font-size="13" font-weight="600" fill="#C0CAF5">Starting Stupid Weekend Projects</text>
-  <text x="850" y="202" text-anchor="end" class="mono" font-size="12.5" font-weight="700" fill="#F7768E">110%</text>
-  <rect x="464" y="210" width="386" height="10" rx="5" fill="#292E42" />
-  <rect x="464" y="210" width="386" height="10" rx="5" fill="url(#barSakura)" />
+  <text x="28" y="234" class="mono" font-size="11" fill="#38BDF8">PAST SECTS &amp; TRAINING</text>
+  <text x="28" y="253" class="sans" font-size="12.5" fill="#CBD5E1">ByteDance (TikTok Shop) · Tokopedia · Aiforesee · Home Credit</text>
+  <text x="28" y="273" class="sans" font-size="12" fill="#94A3B8">B.Eng @ Universitas Gadjah Mada · Indonesia</text>
 
-  <!-- Stat 4 -->
-  <text x="464" y="250" class="sans" font-size="13" font-weight="600" fill="#C0CAF5">Finishing Before Next Anime Season Drops</text>
-  <text x="850" y="250" text-anchor="end" class="mono" font-size="12.5" font-weight="700" fill="#9ECE6A">32%</text>
-  <rect x="464" y="258" width="386" height="10" rx="5" fill="#292E42" />
-  <rect x="464" y="258" width="124" height="10" rx="5" fill="url(#barGreen)" />
+  <!-- RIGHT COLUMN -->
+  <text x="464" y="78" class="mono" font-size="11.5" font-weight="700" fill="#34D399" letter-spacing="1.2">
+    COMBAT &amp; AI STATS
+  </text>
 
-  <!-- Outer neon border -->
-  <rect x="1.5" y="1.5" width="877" height="297" rx="16" fill="none" stroke="url(#winBorder)" stroke-width="1.8" stroke-opacity="0.75" />
+  <text x="464" y="106" class="sans" font-size="13" font-weight="600" fill="#F1F5F9">Data Product, SQL &amp; A/B Experimentation</text>
+  <text x="850" y="106" text-anchor="end" class="mono" font-size="12.5" font-weight="700" fill="#34D399">99%</text>
+  <rect x="464" y="114" width="386" height="10" rx="5" fill="#23283D" />
+  <rect x="464" y="114" width="380" height="10" rx="5" fill="url(#barJade)" />
+
+  <text x="464" y="154" class="sans" font-size="13" font-weight="600" fill="#F1F5F9">Search Ranking &amp; Spam Listing Exorcism</text>
+  <text x="850" y="154" text-anchor="end" class="mono" font-size="12.5" font-weight="700" fill="#FCD34D">95%</text>
+  <rect x="464" y="162" width="386" height="10" rx="5" fill="#23283D" />
+  <rect x="464" y="162" width="366" height="10" rx="5" fill="url(#barGold)" />
+
+  <text x="464" y="202" class="sans" font-size="13" font-weight="600" fill="#F1F5F9">Shipping AI Side Quests Under Ventubox</text>
+  <text x="850" y="202" text-anchor="end" class="mono" font-size="12.5" font-weight="700" fill="#F43F5E">110%</text>
+  <rect x="464" y="210" width="386" height="10" rx="5" fill="#23283D" />
+  <rect x="464" y="210" width="386" height="10" rx="5" fill="url(#barCrimson)" />
+
+  <text x="464" y="250" class="sans" font-size="13" font-weight="600" fill="#F1F5F9">Launching Before Adding "Just One More App"</text>
+  <text x="850" y="250" text-anchor="end" class="mono" font-size="12.5" font-weight="700" fill="#38BDF8">28%</text>
+  <rect x="464" y="258" width="386" height="10" rx="5" fill="#23283D" />
+  <rect x="464" y="258" width="110" height="10" rx="5" fill="url(#barCyan)" />
+
+  <rect x="1.5" y="1.5" width="877" height="297" rx="16" fill="none" stroke="url(#winBorder)" stroke-width="1.8" stroke-opacity="0.78" />
 </svg>
